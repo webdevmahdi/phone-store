@@ -1,12 +1,14 @@
 .post-container{
     display: grid;
+    position: relative;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    top: 70px;
 }
 .post{
     text-align: center;
     display: block;
-    background-color: #dcbbfc;
+    background-color: #EADBC8;
     width: 600px;
     height: auto;
     padding: 10px 20px;

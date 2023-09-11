@@ -3,6 +3,7 @@ import laptop from '../../assets/Images/laptop.png';
 import './Home.css';
 import { Link } from 'react-router-dom';
 import Reviews from '../Reviews/Reviews';
+import Blogs from '../Blogs/Blogs';
 
 const Home = () => {
   return (
@@ -17,17 +18,34 @@ const Home = () => {
           <img src={laptop}></img>
         </div>
       </div>
-      
+    <hr></hr>
       <div className="reviews-section">
         <h1>Customer reviews(3)</h1>
         <Reviews></Reviews>
         <Link className='all-reviews' to='/reviews'>See all reviews</Link>
       </div>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      <hr></hr>
+      <div className='blog-section'>
+        <h1>Blogs</h1>
+        <Blogs></Blogs>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   )
 }
