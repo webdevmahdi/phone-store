@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, PieChart, Pie} from 'recharts';
 import { ResponsiveContainer } from 'recharts';
 

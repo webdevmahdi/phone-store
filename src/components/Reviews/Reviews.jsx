@@ -1,5 +1,5 @@
 import React from 'react';
-import './Reviews.css'
+import './Reviews.css';
 
 const Reviews = () => {
   return (
@@ -10,12 +10,12 @@ const Reviews = () => {
       <p>4.5 Star</p>
     </div>
         <div className='review'>
-          <h2>Karim uddin</h2>
+          <h2>Jalil uddin</h2>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quidem ea sit blanditiis vel labore, voluptatem iusto sint itaque a.</p>
           <p>4.5 Star</p>
         </div>
         <div className='review'>
-          <h2>Karim uddin</h2>
+          <h2>Sahab uddin</h2>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum quidem ea sit blanditiis vel labore, voluptatem iusto sint itaque a.</p>
           <p>4.5 Star</p>
         </div>

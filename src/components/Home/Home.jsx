@@ -1,5 +1,5 @@
 import React from 'react';
-import laptop from '../../assets/Images/laptop.png'
+import laptop from '../../assets/Images/laptop.png';
 import './Home.css';
 import { Link } from 'react-router-dom';
 import Reviews from '../Reviews/Reviews';
@@ -19,6 +19,7 @@ const Home = () => {
       </div>
       
       <div className="reviews-section">
+        <h1>Customer reviews(3)</h1>
         <Reviews></Reviews>
         <Link className='all-reviews' to='/reviews'>See all reviews</Link>
       </div>
