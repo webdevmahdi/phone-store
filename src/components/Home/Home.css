@@ -1,7 +1,29 @@
 .home-container img{
-    height: 400px;
+    position: absolute;
+    height: 500px;
     width: auto;
     border-radius: 500px;
     align-items: center;
-    
+    right: 50px;
+}
+.home-text{
+    position: relative;
+    align-items: center;
+}
+.home-text h1{
+    font-size: 60px;
+    position: absolute;
+    top: 50px;
+    text-transform: uppercase;
+}
+.home-text p{
+    width: 600px;
+    position: absolute;
+    font-size: 20px;
+    top: 250px;
+}
+.home-text a{
+    position: absolute;
+    top: 380px;
+    background-color: #0f2d592c;
 }
