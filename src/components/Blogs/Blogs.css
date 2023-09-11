@@ -1,0 +1,21 @@
+.post-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.post{
+    text-align: center;
+    display: block;
+    background-color: #dcbbfc;
+    width: 600px;
+    height: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.post h1{
+    font-size: 30px;
+}
+.post p{
+    font-size: 22px;
+    text-align: justify;
+}
