@@ -18,10 +18,15 @@ const Home = () => {
         </div>
       </div>
       
-      <div className="reviews">
+      <div className="reviews-section">
         <Reviews></Reviews>
-        <Link to='/reviews'>See all reviews</Link>
+        <Link className='all-reviews' to='/reviews'>See all reviews</Link>
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </div>
   )
 }

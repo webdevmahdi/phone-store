@@ -31,8 +31,26 @@
 .home-text a{
     position: relative;
     top: 30px;
-    background-color: #0f2d592c;
+    background-color: #0f2d59;
+    color: #EADBC8;
 }
-.reviews{
-    
+.reviews-section{
+    position: relative;
+    text-align: center;
+}
+.reviews-section .all-reviews{
+    display: block;
+    margin-top: 50px;
+    margin-left: 40%;
+    width: 250px;
+    position: absolute;
+    justify-content: center;
+    text-decoration: none;
+    color: #EADBC8;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.7s;
+    background-color: #0f2d59;
 }
