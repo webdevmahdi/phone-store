@@ -1,11 +1,11 @@
 import React from 'react';
-import thobra from '../../assets/Images/thobra.jpg'
+import laptop from '../../assets/Images/laptop.png'
 import './Home.css';
 
 const Home = () => {
   return (
     <div className='home-container'>
-        <img src={thobra}></img>
+        <img src={laptop}></img>
     </div>
   )
 }
