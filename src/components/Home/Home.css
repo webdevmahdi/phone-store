@@ -1,29 +1,38 @@
-.home-container img{
-    position: absolute;
-    height: 500px;
-    width: auto;
-    border-radius: 500px;
+.home-banner{
     align-items: center;
-    right: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
 }
 .home-text{
     position: relative;
-    align-items: center;
+    top: 30px;
+    height: 565px;
+}
+.image{
+    position: relative;
+    height: 565px;
+    top: 50px;
+}
+.image img{
+    width: 500px;
+    margin-left: 60px;
 }
 .home-text h1{
     font-size: 60px;
-    position: absolute;
-    top: 50px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .home-text p{
     width: 600px;
-    position: absolute;
     font-size: 20px;
-    top: 250px;
+    margin: 0;
 }
 .home-text a{
-    position: absolute;
-    top: 380px;
+    position: relative;
+    top: 30px;
     background-color: #0f2d592c;
+}
+.reviews{
+    
 }
